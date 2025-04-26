@@ -26,5 +26,5 @@ function model(sequelize) {
         timestamps: false
     };
 
-    return sequelize.define('refreshToken', attributes, options);
+    return sequelize.define( 'refreshToken', attributes, options);
 }
