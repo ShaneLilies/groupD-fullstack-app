@@ -1,5 +1,5 @@
 const express = require('express');
-const router = express.Router();
+const router =  express.Router();
 const swaggerUi = require('swagger-ui-express');
 const YAML = require('yamljs');
 const swaggerDocument = YAML.load('../backend/swagger.yaml');
